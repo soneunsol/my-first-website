@@ -1,0 +1,10 @@
+# GitHub Pages Jekyll 설정
+exclude:
+  - lecture1/
+  - node_modules/
+  - .cache/
+  - .vite/
+  - dist/
+  - package.json
+  - package-lock.json
+  - README.md
