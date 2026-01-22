@@ -1,0 +1,82 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #E85A71;
+  --color-primary-light: #FF6B8A;
+  --color-primary-dark: #D64B7A;
+
+  /* Secondary Colors */
+  --color-secondary: #4361EE;
+  --color-secondary-light: #5E7BFF;
+  --color-secondary-dark: #2962FF;
+  --color-accent: #4EEADB;
+  --color-accent-light: #7FFFEF;
+  --color-purple: #7B3FA0;
+
+  /* Background Colors */
+  --color-bg-primary: #0D0D1A;
+  --color-bg-secondary: #1A1A2E;
+  --color-bg-tertiary: #16213E;
+  --color-bg-gradient: linear-gradient(135deg, #E85A71 0%, #7B3FA0 40%, #4361EE 70%, #4EEADB 100%);
+
+  /* Text Colors */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #E0E0E0;
+  --color-text-muted: #9E9E9E;
+  --color-text-inverse: #0D0D1A;
+
+  /* Interactive Colors */
+  --color-button-primary: #E85A71;
+  --color-button-hover: #FF6B8A;
+  --color-button-active: #D64B7A;
+  --color-button-secondary: #4361EE;
+  --color-link: #4EEADB;
+  --color-link-hover: #7FFFEF;
+
+  /* Border & Shadow */
+  --color-border-primary: rgba(78, 234, 219, 0.3);
+  --color-border-secondary: rgba(255, 255, 255, 0.1);
+  --shadow-primary: 0 4px 20px rgba(232, 90, 113, 0.3);
+  --shadow-secondary: 0 4px 20px rgba(67, 97, 238, 0.3);
+  --shadow-accent: 0 4px 20px rgba(78, 234, 219, 0.3);
+
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+.gradient-text {
+  background: var(--color-bg-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#root {
+  width: 100%;
+}
