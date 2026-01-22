@@ -46,3 +46,20 @@ Thumbs.db
 # MCP and Claude config (contains sensitive tokens)
 .claude/
 .mcp.json
+
+# Local Netlify folder
+.netlify
+
+# Untracked project folders (work in progress)
+lecture1/my-community/
+lecture1/ui_test/
+lecture1/맛스타그램_sns/
+
+# Planning/Design docs (local only)
+portfolio_plan.md
+컬러 팔레트 디자인 시스템.md
+
+# Misc
+image.png
+nul
+lecture1/nul
